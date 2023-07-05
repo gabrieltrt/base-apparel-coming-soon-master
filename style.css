@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     }
     
     body {
@@ -87,6 +89,7 @@
   }
 
   input {
+    outline: none;
     background: linear-gradient(135deg, hsl(0, 100%, 99%), hsl(0, 100%, 98%));
     padding: 0.625rem 1.5rem;
     width: 100%;
@@ -111,6 +114,14 @@
     color: #F96464;
     font-size: 0.8125rem;
     margin-left: 1.5rem;
+  }
+
+  .error-icon {
+    display: none;
+      position: absolute;
+      right: 75px;
+      top: 50%;
+      transform: translateY(-50%);
   }
 
   @media only screen and (min-width: 1023px) {
