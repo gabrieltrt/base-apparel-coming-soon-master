@@ -1,4 +1,4 @@
-function formvalidator() {
+function formValidator() {
     // Pega o valor do campo de input com a id="mailform"
     let email = document.getElementById("mailform").value;
     // Seleciona o elemento com a id="error", neste caso, é um elemento <p></p>
@@ -12,6 +12,4 @@ function formvalidator() {
         error.textContent = ''; // Limpar mensagem de erro se for válido
         alert('E-mail Válido: ' + email);
     }
-
-
 }
