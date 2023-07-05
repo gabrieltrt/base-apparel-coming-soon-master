@@ -6,7 +6,7 @@ function formValidator() {
 
     if (email === '') {
         error.textContent = "Please provide a valid email";
-    } else if (email.indexOF('@') === -1 || email.indexof('.') === -1) {
+    } else if (email.indexOf('@') === -1 || email.indexOf('.') === -1) {
         error.textContent = "Please provide a valid email";
     } else {
         error.textContent = ''; // Limpar mensagem de erro se for válido
