@@ -127,8 +127,26 @@
   @media only screen and (min-width: 1023px) {
 
   .hero-container {
+    max-width: 90rem;
+    margin: 0px 0 0 10.3125rem;
     display: grid;
-    
+    grid-template: 50px 1fr / 1fr 1fr
+  }
+
+  header {
+     margin: 4.6875rem 0 0 0rem;
+  }
+
+  header img {
+    width: 158px;
+  }
+
+  .content h1 {
+    text-align: left;
+  }
+
+  .content {
+    margin: 0;
   }
 
   }
