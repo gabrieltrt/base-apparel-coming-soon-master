@@ -130,7 +130,7 @@
     max-width: 90rem;
     margin: 0px 0 0 10.3125rem;
     display: grid;
-    grid-template: 50px 1fr / 1fr 1fr
+    grid-template: 1fr 1fr / 1fr 1fr
   }
 
   header {
