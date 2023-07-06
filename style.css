@@ -149,7 +149,7 @@
   .content h1 {
     font-size: 4rem;
     text-align: left;
-    margin: 8.5rem 0 2rem 0;
+    margin: 0rem 0 2rem 0;
   }
 
   .content-paragraph {
@@ -158,7 +158,7 @@
   }
 
   .content {
-    margin: 0 13.75rem 0 0;
+    margin: 8.5rem 5.75rem 0 0; /* Changed from 13.75 to 5.75rem */
     max-width: 27.8125rem;
   }
 
